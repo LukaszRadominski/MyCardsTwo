@@ -1,0 +1,13 @@
+h1 {
+    background: blue;
+}
+h2 {
+    font: strong;
+    font-size: 50px;
+}
+.banner {
+    font-size: 20px;
+}
+button {
+    font-size: 30px
+}

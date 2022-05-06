@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+    {% block head %}
+        <meta charset="utf-8">
+        <title>My first ewbsite</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% endblock %}
+    </head>
+    <body>
+        <h1>Witaj na mojej stronie domowej</h1>
+        <img src="https://thumbs.dreamstime.com/b/albert-einstein-wystrza%C5%82u-sztuka-51720486.jpg" width="200" height="200" alt="Obrazek einstein" title="Einstein art">
+        <div id="content">{% block content %}{% endblock %}</div>
+    </body>
+</html>
